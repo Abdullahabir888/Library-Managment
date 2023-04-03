@@ -1,0 +1,75 @@
+.center-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buck2,
+.buck1 {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(100px);
+  font-family: sans-serif;
+  height: unset;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  border-radius: 0.5rem;
+}
+
+.buck2 {
+  padding-top: 30px;
+}
+
+.buck2 *,
+.buck1 * {
+  font-family: sans-serif !important;
+}
+
+.buck2 a,
+.buck1 a {
+  color: #ccc !important;
+}
+
+.buck2 h1,
+.buck1 h1 {
+  margin: 0;
+}
+
+.buck2 .login,
+.buck1 .login {
+  margin: 0;
+}
+
+.buck2 input[type="password"],
+.buck2 input[type="text"],
+.buck1 input[type="password"],
+.buck1 input[type="text"] {
+  border-radius: 0.5rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid #999;
+}
+
+.buck2 input[type="password"]::placeholder,
+.buck2 input[type="text"]::placeholder,
+.buck1 input[type="password"]::placeholder,
+.buck1 input[type="text"]::placeholder {
+  color: #999;
+}
+
+.buck2 input[type="submit"],
+.buck1 input[type="submit"] {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  border-radius: 0.5rem;
+  transition: 125ms ease-in-out;
+}
+
+.buck2 input[type="submit"]:hover,
+.buck1 input[type="submit"]:hover {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
